@@ -1,6 +1,6 @@
 function doPost(e) {
   try {
-    var libro = SpreadsheetApp.openById("PEGAR_ID_DE_LA_NUEVA_HOJA_AQUI");
+    var libro = SpreadsheetApp.openById("1yaENRlssj-20tr3gtUJi1SqFnaziJ9qsL4Dd7d4qO4o");
     var hoja = libro.getSheets()[0];
 
     if (!e || !e.postData || !e.postData.contents) {

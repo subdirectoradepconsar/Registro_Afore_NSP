@@ -5,7 +5,7 @@ Copia independiente del registro. No solicita teléfono.
 ## Configuración de la nueva hoja
 
 1. Crear un proyecto propio de Apps Script para este registro. No modificar implementaciones anteriores.
-2. En apps-script/Code.gs sustituir PEGAR_ID_DE_LA_NUEVA_HOJA_AQUI por el ID de la hoja nueva (el texto entre /d/ y /edit en su URL).
+2. Copiar apps-script/Code.gs, ya configurado con la hoja https://docs.google.com/spreadsheets/d/1yaENRlssj-20tr3gtUJi1SqFnaziJ9qsL4Dd7d4qO4o/edit.
 3. Usar en la primera pestaña las columnas: Fecha y hora, Nombre, Correo, Género, Año de nacimiento.
 4. Implementar como aplicación web y configurar WEBHOOK_URL en index.html con su dirección /exec.
 
