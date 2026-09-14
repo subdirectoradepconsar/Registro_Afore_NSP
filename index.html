@@ -388,7 +388,7 @@
   <!-- ================= LÓGICA JAVASCRIPT VANILLA ================= -->
   <script>
     document.addEventListener('DOMContentLoaded', () => {
-      const WEBHOOK_URL = 'https://script.google.com/macros/s/AKfycbxDcbW3mE2xlulLsI_vQqaXOlBpkmexRFLrVc4DjxDMh2791rXX905-uXwUeBuAaH8e/exec';
+      const WEBHOOK_URL = ''; // Pendiente de la implementación exclusiva de Registro_Afore_NSP.
       const form = document.getElementById('attendance-form');
       const formContainer = document.getElementById('form-container');
       const successContainer = document.getElementById('success-container');
@@ -490,7 +490,7 @@
 
         if (!isValid) return;
         if (!WEBHOOK_URL) {
-          sendError.textContent = 'El registro ISSSTE todavía no está habilitado. Vuelve a intentarlo cuando se anuncie su apertura.';
+          sendError.textContent = 'El registro Afore NSP todavía no está habilitado. Vuelve a intentarlo cuando se anuncie su apertura.';
           sendError.classList.remove('hidden');
           return;
         }

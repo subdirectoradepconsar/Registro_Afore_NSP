@@ -1,6 +1,6 @@
 function doPost(e) {
   try {
-    var libro = SpreadsheetApp.openById("1497Z5h8l9Sme98fPQrgJ4s5f3z9zc-PnA5a7eks--rM");
+    var libro = SpreadsheetApp.openById("PEGAR_ID_DE_LA_NUEVA_HOJA_AQUI");
     var hoja = libro.getSheets()[0];
 
     if (!e || !e.postData || !e.postData.contents) {
@@ -20,7 +20,7 @@ function doPost(e) {
     return ContentService
       .createTextOutput(JSON.stringify({
         status: "success",
-        message: "Asistencia ISSSTE registrada"
+        message: "Asistencia Afore NSP registrada"
       }))
       .setMimeType(ContentService.MimeType.JSON);
   } catch (error) {
